@@ -7,8 +7,8 @@ package gengo
 import (
 	"strings"
 
+	"github.com/yangjerry110/protoc-gen-go/internal/genid"
 	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/internal/genid"
 )
 
 // Specialized support for well-known types are hard-coded into the generator
