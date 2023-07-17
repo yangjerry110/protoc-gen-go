@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
+	gengo "github.com/yangjerry110/protoc-gen-go/cmd/protoc-gen-go/internal_gengo"
+	"github.com/yangjerry110/protoc-gen-go/compiler/protogen"
 	"github.com/yangjerry110/protoc-gen-go/internal/detrand"
-	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"google.golang.org/protobuf/compiler/protogen"
 )
 
 func init() {
@@ -104,7 +104,7 @@ func generateLocalProtos() {
 		exclude  map[string]bool   // .proto files to exclude from generation
 	}{{
 		path:     "cmd/protoc-gen-go/testdata",
-		pkgPaths: map[string]string{"cmd/protoc-gen-go/testdata/nopackage/nopackage.proto": "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nopackage"},
+		pkgPaths: map[string]string{"cmd/protoc-gen-go/testdata/nopackage/nopackage.proto": "github.com/yangjerry110/protoc-gen-go/cmd/protoc-gen-go/testdata/nopackage"},
 		annotate: map[string]bool{"cmd/protoc-gen-go/testdata/annotations/annotations.proto": true},
 	}, {
 		path:    "internal/testprotos",
@@ -260,7 +260,7 @@ func generateIdentifiers(gen *protogen.Plugin, file *protogen.File) {
 
 	var processEnums func([]*protogen.Enum)
 	var processMessages func([]*protogen.Message)
-	const protoreflectPackage = protogen.GoImportPath("google.golang.org/protobuf/reflect/protoreflect")
+	const protoreflectPackage = protogen.GoImportPath("github.com/yangjerry110/protoc-gen-go/reflect/protoreflect")
 	processEnums = func(enums []*protogen.Enum) {
 		for _, enum := range enums {
 			g.P("// Full and short names for ", enum.Desc.FullName(), ".")

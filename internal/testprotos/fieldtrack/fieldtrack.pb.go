@@ -10,9 +10,9 @@ package fieldtrack
 import (
 	_ "github.com/yangjerry110/protoc-gen-go/internal/testprotos/annotation"
 	test "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	proto "github.com/yangjerry110/protoc-gen-go/proto"
+	protoreflect "github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	protoimpl "github.com/yangjerry110/protoc-gen-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

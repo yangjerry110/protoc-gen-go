@@ -10,7 +10,7 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/detrand"
 	"github.com/yangjerry110/protoc-gen-go/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 type reflectMessageInfo struct {

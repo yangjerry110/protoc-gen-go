@@ -8,9 +8,9 @@ package messageset
 import (
 	"math"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 // The MessageSet wire format is equivalent to a message defined as follows,

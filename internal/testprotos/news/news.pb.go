@@ -8,10 +8,10 @@
 package news
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
+	protoreflect "github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	protoimpl "github.com/yangjerry110/protoc-gen-go/runtime/protoimpl"
+	anypb "github.com/yangjerry110/protoc-gen-go/types/known/anypb"
+	timestamppb "github.com/yangjerry110/protoc-gen-go/types/known/timestamppb"
 	reflect "reflect"
 	sync "sync"
 )

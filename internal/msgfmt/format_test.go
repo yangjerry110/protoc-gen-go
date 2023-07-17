@@ -13,17 +13,17 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/detrand"
 	"github.com/yangjerry110/protoc-gen-go/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/testing/protocmp"
+	"github.com/yangjerry110/protoc-gen-go/testing/protopack"
 
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"
 	textpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/textpb2"
-	dynpb "google.golang.org/protobuf/types/dynamicpb"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durpb "google.golang.org/protobuf/types/known/durationpb"
-	tspb "google.golang.org/protobuf/types/known/timestamppb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	dynpb "github.com/yangjerry110/protoc-gen-go/types/dynamicpb"
+	anypb "github.com/yangjerry110/protoc-gen-go/types/known/anypb"
+	durpb "github.com/yangjerry110/protoc-gen-go/types/known/durationpb"
+	tspb "github.com/yangjerry110/protoc-gen-go/types/known/timestamppb"
+	wpb "github.com/yangjerry110/protoc-gen-go/types/known/wrapperspb"
 )
 
 func init() {

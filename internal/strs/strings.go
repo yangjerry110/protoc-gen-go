@@ -12,7 +12,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/flags"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 // EnforceUTF8 reports whether to enforce strict UTF-8 validation.

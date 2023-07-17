@@ -15,8 +15,8 @@ import (
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
 	"github.com/yangjerry110/protoc-gen-go/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 // legacyWrapMessage wraps v as a protoreflect.Message,

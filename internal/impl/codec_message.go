@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/encoding/messageset"
 	"github.com/yangjerry110/protoc-gen-go/internal/order"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 // coderMessageInfo contains per-message information used by the fast-path functions.

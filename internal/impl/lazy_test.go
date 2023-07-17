@@ -10,7 +10,7 @@ import (
 	"github.com/yangjerry110/protoc-gen-go/internal/flags"
 	"github.com/yangjerry110/protoc-gen-go/internal/impl"
 	"github.com/yangjerry110/protoc-gen-go/internal/protobuild"
-	"google.golang.org/protobuf/proto"
+	"github.com/yangjerry110/protoc-gen-go/proto"
 
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"
 )

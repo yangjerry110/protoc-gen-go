@@ -12,8 +12,8 @@ import (
 	"reflect"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 // These functions exist to support exported APIs in generated protobufs.

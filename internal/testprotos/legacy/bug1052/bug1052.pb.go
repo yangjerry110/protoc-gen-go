@@ -12,7 +12,7 @@ import (
 	math "math"
 
 	proto "github.com/yangjerry110/protoc-gen-go/internal/protolegacy"
-	descriptor "google.golang.org/protobuf/types/descriptorpb"
+	descriptor "github.com/yangjerry110/protoc-gen-go/types/descriptorpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

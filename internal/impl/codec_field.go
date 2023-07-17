@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"sync"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 type errInvalidUTF8 struct{}

@@ -14,7 +14,7 @@ import (
 	"github.com/yangjerry110/protoc-gen-go/internal/encoding/defval"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
 	"github.com/yangjerry110/protoc-gen-go/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 var byteType = reflect.TypeOf(byte(0))

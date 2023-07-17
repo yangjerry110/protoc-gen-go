@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/flags"
-	proto "google.golang.org/protobuf/proto"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	proto "github.com/yangjerry110/protoc-gen-go/proto"
+	piface "github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 type marshalOptions struct {

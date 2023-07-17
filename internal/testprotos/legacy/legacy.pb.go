@@ -20,8 +20,8 @@ import (
 	proto3_20180430_b4deda09 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20180430_b4deda09"
 	proto3_20180814_aa810b61 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20180814_aa810b61"
 	proto3_20190205_c823c79e "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20190205_c823c79e"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	protoimpl "github.com/yangjerry110/protoc-gen-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

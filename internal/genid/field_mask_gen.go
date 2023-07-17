@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoreflect "github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 const File_google_protobuf_field_mask_proto = "google/protobuf/field_mask.proto"

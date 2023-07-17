@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/detrand"
 	"github.com/yangjerry110/protoc-gen-go/internal/genid"
 	"github.com/yangjerry110/protoc-gen-go/internal/order"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
 )
 
 // Format returns a formatted string for the message.

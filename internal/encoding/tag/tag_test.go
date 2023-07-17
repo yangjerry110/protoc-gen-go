@@ -10,9 +10,9 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/encoding/tag"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protodesc"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

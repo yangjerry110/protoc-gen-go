@@ -7,7 +7,7 @@ package impl_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"
 )

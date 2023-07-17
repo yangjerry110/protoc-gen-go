@@ -7,10 +7,10 @@ package impl
 import (
 	"sort"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/encoding/messageset"
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
 	"github.com/yangjerry110/protoc-gen-go/internal/flags"
-	"google.golang.org/protobuf/encoding/protowire"
 )
 
 func sizeMessageSet(mi *MessageInfo, p pointer, opts marshalOptions) (size int) {

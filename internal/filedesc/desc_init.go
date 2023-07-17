@@ -7,10 +7,10 @@ package filedesc
 import (
 	"sync"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/protowire"
 	"github.com/yangjerry110/protoc-gen-go/internal/genid"
 	"github.com/yangjerry110/protoc-gen-go/internal/strs"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 // fileRaw is a data struct used when initializing a file descriptor from

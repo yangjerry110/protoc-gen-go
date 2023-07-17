@@ -11,8 +11,8 @@ import (
 	"sync"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/flags"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
 )
 
 type fieldInfo struct {

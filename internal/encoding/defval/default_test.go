@@ -11,7 +11,7 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/encoding/defval"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

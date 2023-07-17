@@ -16,7 +16,7 @@ import (
 
 	ptext "github.com/yangjerry110/protoc-gen-go/internal/encoding/text"
 	"github.com/yangjerry110/protoc-gen-go/internal/errors"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 // Format is the serialization format used to represent the default value.

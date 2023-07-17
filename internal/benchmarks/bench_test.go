@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/encoding/protojson"
+	"github.com/yangjerry110/protoc-gen-go/encoding/prototext"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
 
 	benchpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/benchmarks"
 	_ "github.com/yangjerry110/protoc-gen-go/internal/testprotos/benchmarks/datasets/google_message1/proto2"

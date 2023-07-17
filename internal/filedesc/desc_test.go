@@ -16,11 +16,11 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/detrand"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protodesc"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/yangjerry110/protoc-gen-go/types/descriptorpb"
 )
 
 func init() {

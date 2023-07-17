@@ -16,17 +16,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
+	"github.com/yangjerry110/protoc-gen-go/encoding/prototext"
 	pimpl "github.com/yangjerry110/protoc-gen-go/internal/impl"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protodesc"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/testing/protopack"
 
 	proto2_20180125 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto2_20180125_92554152"
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/yangjerry110/protoc-gen-go/types/descriptorpb"
 )
 
 // List of test operations to perform on messages, lists, or maps.

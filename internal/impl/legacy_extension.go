@@ -12,9 +12,9 @@ import (
 	ptag "github.com/yangjerry110/protoc-gen-go/internal/encoding/tag"
 	"github.com/yangjerry110/protoc-gen-go/internal/filedesc"
 	"github.com/yangjerry110/protoc-gen-go/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

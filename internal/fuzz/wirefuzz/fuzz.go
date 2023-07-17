@@ -9,9 +9,9 @@ import (
 	"fmt"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/impl"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
+	piface "github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
 
 	fuzzpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/fuzz"
 )

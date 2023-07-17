@@ -15,9 +15,9 @@ import (
 
 	"github.com/yangjerry110/protoc-gen-go/internal/impl"
 	"github.com/yangjerry110/protoc-gen-go/internal/pragma"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protodesc"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 
 	proto2_20160225 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
 	proto2_20160519 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto2_20160519_a4ab9ec5"
@@ -31,7 +31,7 @@ import (
 	proto3_20180430 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20180430_b4deda09"
 	proto3_20180814 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20180814_aa810b61"
 	proto3_20190205 "github.com/yangjerry110/protoc-gen-go/internal/testprotos/legacy/proto3_20190205_c823c79e"
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/yangjerry110/protoc-gen-go/types/descriptorpb"
 )
 
 func mustLoadFileDesc(b []byte, _ []int) protoreflect.FileDescriptor {

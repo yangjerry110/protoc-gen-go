@@ -15,9 +15,9 @@ import (
 	"io/ioutil"
 	"log"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"github.com/yangjerry110/protoc-gen-go/encoding/protojson"
+	"github.com/yangjerry110/protoc-gen-go/encoding/prototext"
+	"github.com/yangjerry110/protoc-gen-go/proto"
 
 	fuzzpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/fuzz"
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"

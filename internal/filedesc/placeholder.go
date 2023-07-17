@@ -7,7 +7,7 @@ package filedesc
 import (
 	"github.com/yangjerry110/protoc-gen-go/internal/descopts"
 	"github.com/yangjerry110/protoc-gen-go/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
 )
 
 var (

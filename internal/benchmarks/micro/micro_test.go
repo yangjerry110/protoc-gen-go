@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"github.com/yangjerry110/protoc-gen-go/internal/impl"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoiface"
-	"google.golang.org/protobuf/types/known/emptypb"
+	"github.com/yangjerry110/protoc-gen-go/proto"
+	"github.com/yangjerry110/protoc-gen-go/runtime/protoiface"
+	"github.com/yangjerry110/protoc-gen-go/types/known/emptypb"
 
 	micropb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/benchmarks/micro"
 	testpb "github.com/yangjerry110/protoc-gen-go/internal/testprotos/test"

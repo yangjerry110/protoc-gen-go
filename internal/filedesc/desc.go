@@ -17,8 +17,8 @@ import (
 	"github.com/yangjerry110/protoc-gen-go/internal/genid"
 	"github.com/yangjerry110/protoc-gen-go/internal/pragma"
 	"github.com/yangjerry110/protoc-gen-go/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	"github.com/yangjerry110/protoc-gen-go/reflect/protoregistry"
 )
 
 // The types in this file may have a suffix:

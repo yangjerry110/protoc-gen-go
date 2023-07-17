@@ -8,9 +8,9 @@
 package test3
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/yangjerry110/protoc-gen-go/reflect/protoreflect"
+	protoimpl "github.com/yangjerry110/protoc-gen-go/runtime/protoimpl"
+	descriptorpb "github.com/yangjerry110/protoc-gen-go/types/descriptorpb"
 	reflect "reflect"
 )
 
