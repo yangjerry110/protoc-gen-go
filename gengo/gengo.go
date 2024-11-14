@@ -2,7 +2,7 @@
  * @Author: Jerry.Yang
  * @Date: 2023-07-17 16:36:06
  * @LastEditors: Jerry.Yang
- * @LastEditTime: 2023-07-17 17:00:50
+ * @LastEditTime: 2024-11-14 14:27:25
  * @Description: gengo
  */
 package gengo
@@ -413,6 +413,9 @@ func genMessageField(g *protogen.GeneratedFile, f *fileInfo, m *messageInfo, fie
 		{"form", fieldFORMTagValue(field)},
 		{"uri", fieldURITagValue(field)},
 	}
+
+	fmt.Printf("tags : %+v", tags)
+
 	if field.Desc.IsMap() {
 		key := field.Message.Fields[0]
 		val := field.Message.Fields[1]
